@@ -1,0 +1,20 @@
+# Build outputs
+/build/
+/build-desktop/
+build-*/
+sdkconfig
+sdkconfig.old
+
+# ESP-IDF
+/managed_components/
+dependencies.lock
+
+# Editor / OS
+.vscode/
+.idea/
+*.o
+*.a
+.DS_Store
+
+# Replay output
+*.csv
